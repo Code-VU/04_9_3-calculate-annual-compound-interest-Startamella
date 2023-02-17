@@ -14,7 +14,7 @@ def solution():
     client_one_rate =      float(input("Rate:               "))
     A = client_one_principal*(1+(client_one_rate/100))**client_one_time
     intrest = A - client_one_principal
-    print("Compound Interest:  "+str(round(intrest,2)))
+    print("Compound Interest: "+str(round(intrest,2)))
 
     # end assignment
 
